@@ -51,7 +51,7 @@ const Home: React.FC = () => {
         <TextInput
           style={styles.textInput}
           onChangeText={(search) => { setSearch(search), funcButton(search) }}
-          placeholder='e.g Spiderman'
+          placeholder='Cari Film'
         />
         <TouchableOpacity style={styles.button} onPress={() => funcButton(search)} >
           <Text>Cari</Text>
